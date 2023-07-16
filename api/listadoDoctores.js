@@ -1,6 +1,6 @@
 const doctoresTableBody = document.getElementById('doctoresTableBody');
 
-fetch('/api/doctores')
+fetch('api/doctores')
   .then((response) => response.json())
   .then((data) => {
     data.forEach((doctor) => {
