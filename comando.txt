@@ -1,0 +1,4 @@
+iniciar el servidor 
+node server.js
+
+

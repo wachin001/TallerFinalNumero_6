@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Doctores</title>
+</head>
+<body>
+  <h1>Formulario de Doctores</h1>
+  <form id="doctorForm">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" required><br>
+
+    <label for="especialidad">Especialidad:</label>
+    <select id="especialidad" required>
+      <option value="">Seleccione una especialidad</option>
+      <option value="medicina_general">Medicina general</option>
+      <option value="cardiologia">Cardiología</option>
+      <option value="medicina_interna">Medicina interna</option>
+      <option value="dermatologia">Dermatología</option>
+      <option value="rehabilitacion_fisica">Rehabilitación física</option>
+      <option value="psicologia">Psicología</option>
+      <option value="odontologia">Odontología</option>
+      <option value="radiologia">Radiología</option>
+    </select><br>
+
+    <label for="consultorio">Consultorio:</label>
+    <input type="text" id="consultorio" required><br>
+
+    <label for="correo">Correo de contacto:</label>
+    <input type="email" id="correo" required><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="doctorScript.ts"></script>
+</body>
+</html>
