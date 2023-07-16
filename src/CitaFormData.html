@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Cita Médica</title>
+</head>
+<body>
+  <h1>Formulario de Cita Médica</h1>
+  <form id="citaForm">
+    <label for="numero_paciente">Número documento paciente:</label>
+    <input type="text" id="numero_paciente" required><br>
+
+    <label for="especialidad_cita">Especialidad:</label>
+    <select id="especialidad_cita" required>
+      <option value="">Seleccione una especialidad</option>
+      <option value="medicina_general">Medicina general</option>
+      <option value="cardiologia">Cardiología</option>
+      <option value="medicina_interna">Medicina interna</option>
+      <option value="dermatologia">Dermatología</option>
+      <option value="rehabilitacion_fisica">Rehabilitación física</option>
+      <option value="psicologia">Psicología</option>
+      <option value="odontologia">Odontología</option>
+      <option value="radiologia">Radiología</option>
+    </select><br>
+
+    <button type="submit">Asignar Cita</button>
+  </form>
+
+  <script src="citaScript.ts"></script>
+</body>
+</html>
